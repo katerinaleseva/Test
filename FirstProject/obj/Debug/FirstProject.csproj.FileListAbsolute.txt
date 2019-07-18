@@ -1,0 +1,7 @@
+C:\Users\katerina.slavova\source\repos\FirstSolution\FirstProject\bin\Debug\FirstProject.exe.config
+C:\Users\katerina.slavova\source\repos\FirstSolution\FirstProject\bin\Debug\FirstProject.exe
+C:\Users\katerina.slavova\source\repos\FirstSolution\FirstProject\bin\Debug\FirstProject.pdb
+C:\Users\katerina.slavova\source\repos\FirstSolution\FirstProject\obj\Debug\FirstProject.csprojAssemblyReference.cache
+C:\Users\katerina.slavova\source\repos\FirstSolution\FirstProject\obj\Debug\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\katerina.slavova\source\repos\FirstSolution\FirstProject\obj\Debug\FirstProject.exe
+C:\Users\katerina.slavova\source\repos\FirstSolution\FirstProject\obj\Debug\FirstProject.pdb
