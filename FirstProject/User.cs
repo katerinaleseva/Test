@@ -84,7 +84,7 @@ namespace FirstProject
             else
             {
                 this.password = newPassword;
-                Console.WriteLine("Successfully changed password for "+this.Username);
+                passwordHasBeenChanged = true;
             }
 
             return passwordHasBeenChanged;

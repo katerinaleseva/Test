@@ -30,8 +30,18 @@ namespace FirstProject
 
             userA.Age = 21;
 
-            userA.ChangePassword("123", "1234");
-            userA.ChangePassword("123", "1234");
+            bool passwordForAChanged = userA.ChangePassword("123", "1234");
+            Console.WriteLine(passwordForAChanged);
+
+
+            passwordForAChanged = userA.ChangePassword("123", "1234");
+            Console.WriteLine(passwordForAChanged);
+
+            passwordForAChanged = userA.ChangePassword("123", "1234");
+            Console.WriteLine(passwordForAChanged);
+
+            bool passwordForBChanged = userB.ChangePassword("abc", "478");
+            Console.WriteLine(passwordForBChanged);
 
 
 
