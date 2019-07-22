@@ -8,14 +8,23 @@ namespace FirstProject
         static void Main(string[] args)
 
         {
-            User userA = new User();  
-            User userB = new User();
+            User userA = new User("test.user");  
+            User userB = new User("user.b");
+            AdminUser adminC = new AdminUser("test.admin");
 
+            userA.Role = "Regular User";
+            adminC.FirstNAme = "test";
+            adminC.LastName = "last";
+            adminC.AddTask("Task C");
+            Console.WriteLine(adminC.Fullname + " "+ adminC.Role);
+            
+           
+            /*
             userA.Username = "test.user";
             /*Console.WriteLine("Username A: " + userA.Username);
             Console.WriteLine("Username B: " + userB.Username);
             Console.WriteLine("Role A: " + userA.Role);
-            Console.WriteLine("Role B: " + userB.Role);*/
+            Console.WriteLine("Role B: " + userB.Role);
 
             userA.FirstNAme = "First Name A";
             userA.LastName = "Last Name A";
@@ -30,6 +39,9 @@ namespace FirstProject
 
             userA.Age = 21;
 
+            userA.ViewProfile();
+            userB.ViewProfile();
+
             bool passwordForAChanged = userA.ChangePassword("123", "1234");
             Console.WriteLine(passwordForAChanged);
 
@@ -41,8 +53,8 @@ namespace FirstProject
             Console.WriteLine(passwordForAChanged);
 
             bool passwordForBChanged = userB.ChangePassword("abc", "478");
-            Console.WriteLine(passwordForBChanged);
-
+            Console.WriteLine(passwordForBChanged); */
+           
 
 
         }

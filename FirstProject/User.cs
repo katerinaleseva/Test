@@ -13,6 +13,26 @@ namespace FirstProject
         private string firstName;
         private string lastName;
         private string password;
+        private string addTask;
+
+        public User(string username)
+        {
+            this.role = "Regular user";
+            this.username = username;
+        }
+
+        public User(string userName, string firstName, string lastName)
+            : this(userName)
+        {
+            this.FirstNAme = firstName;
+            this.LastName = lastName;
+        }
+
+        public User(string userName, string password, string firstName, string lastName)
+            : this(userName, firstName, lastName)
+        {
+            this.Password = password;
+        }
        
 
         public string LastName
@@ -108,8 +128,11 @@ namespace FirstProject
             Console.WriteLine();
         }
 
+        public void AddTask(string addTask)
+        {
+            this.addTask = addTask;
 
-    
+        }
             
      }
 }
